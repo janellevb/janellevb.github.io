@@ -85,7 +85,8 @@
     font-family: Verdana;
     font-size: 10px;
     width: 362px;
-    height: 476px;
+    height: calc(70vh - 136px - 60px - 60px);
+    // max-height: 40vh;
     border: 1px solid #586170;
     border-radius: 8px 8px 0 0;
     margin: 0px 8px;
