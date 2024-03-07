@@ -1,0 +1,34 @@
+{
+  "name": "stinkywebsite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "stinkywebsite",
+  "author": "Inho Kim",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy": "gatsby build && gh-pages -d public -b stinkywebsite"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-sass": "^6.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xp.css": "^0.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "gh-pages": "^6.1.1",
+    "sass": "^1.71.1",
+    "typescript": "^5.3.3"
+  }
+}
